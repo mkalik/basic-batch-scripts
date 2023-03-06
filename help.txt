@@ -1,0 +1,9 @@
+
+CUSTOM COMMANDS FOR WINDOWS TERMINAL:
+
+alias   --- display this info
+dup     --- open current directory in new tab
+home    --- go to home path 
+repo    --- initialize a local repo and connect to a remote one [ requires the remote ]
+
+
