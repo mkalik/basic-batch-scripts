@@ -1,4 +1,6 @@
 @echo off
-if [%*]==[] (echo:
+echo %*
+set message="%*"
+if [%message%]==[] (echo:
 echo missing arg: commit message
-) else (git commit -m "%*")
+) else (git commit -m %message%)
