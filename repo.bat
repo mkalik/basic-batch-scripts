@@ -1,7 +1,7 @@
 @echo off
-set /p remote= Enter your repos's remote: 
+set /p remote= Enter your repos's remote:
 echo remote :%remote%
-git init 
+git init
 git remote add origin %remote%
 git add -A
 set /p commit= Enter your first commit message:

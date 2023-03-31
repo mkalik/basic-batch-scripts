@@ -1,2 +1,4 @@
 @echo off
-git commit -m "%*"
+if [%*]==[] (echo:
+echo missing arg: commit message
+) else (git commit -m "%*")

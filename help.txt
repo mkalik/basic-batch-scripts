@@ -3,9 +3,15 @@ CUSTOM COMMANDS FOR WINDOWS TERMINAL:
 
 alias   --- display this info
 dup     --- open current directory in new tab
-home    --- go to home path 
-repo    --- initialize a local repo and connect to a remote one [ requires the remote ]
+home    --- go to home path
 
 
+git commands
+
+repo     --- prompts user for remote link to repo as well as a first commit message, then pushes all local files
+*push    --- invokes git push origin %arg_branch%
+*commit  --- invokes a git commit -m "%arg_message%"
+*pull    --- invokes a git pull origin %arg_branch%
+*add     --- invokes a git add %arg_files% [can also append various git tags ie: -A]
 
 
