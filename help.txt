@@ -7,3 +7,5 @@ home    --- go to home path
 repo    --- initialize a local repo and connect to a remote one [ requires the remote ]
 
 
+
+
